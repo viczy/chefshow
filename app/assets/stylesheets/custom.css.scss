@@ -27,3 +27,32 @@ body {
 	font-size:1.2em;
 	float:right !important;;
 }
+
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #8e8e8e;
+  a {
+    color: #8e8e8e;
+    &:hover {
+      color: #8e8e8e;
+    }
+  }
+  small {
+    margin-left:20px;
+    float: left;
+  }
+  ul {
+    margin-right:20px;
+    float: right;
+    list-style: none;
+    li {
+      float: left;
+      margin-left: 10px;
+    }
+  }
+}
